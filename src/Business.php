@@ -1,10 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: MJ
- * Date: 3/30/2017
- * Time: 9:56 AM
- */
+
+namespace Acme;
+use Acme\Users\Person;
+
 class Business {
     protected $staff;
     public function __construct(Staff $staff)

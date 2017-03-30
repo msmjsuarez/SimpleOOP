@@ -1,10 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: MJ
- * Date: 3/30/2017
- * Time: 9:59 AM
- */
+
+namespace Acme;
+use Acme\Users\Person;
+
 class Staff {
     protected $members = [];
     public function __construct($members = [])
